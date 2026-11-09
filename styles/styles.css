@@ -1,10 +1,11 @@
 header {
     text-align: center;
-    background-color: #2971dd;
 
 }
 
 nav {
+    background-color: #2971dd;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     color: #eee;
