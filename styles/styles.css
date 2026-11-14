@@ -1,3 +1,12 @@
+/* The universal key "*" modifies all the html tags of the page */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 header {
     text-align: center;
 
@@ -35,6 +44,14 @@ aside {
     color: #333;
     text-align: center;
     box-shadow: 10px 10px 10px gray;
+    position: relative;
+}
+
+aside h2 {
+  position: absolute;
+  top: 20px;
+  left: 140px;
+  background-color: white;
 }
 
 aside img {
@@ -43,6 +60,7 @@ aside img {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px;
@@ -60,3 +78,16 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+
+
+/* Class Selectors */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+
