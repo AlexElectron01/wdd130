@@ -57,12 +57,15 @@ nav, p, section, article {
     height: auto;
 }
 
+.hero h1 {
+position: absolute
 
+}
 
 
 .hero article{
  position: absolute;
-background-color: var(--accent1-color);
+ background-color: var(--accent1-color);
 }
 .hero article img {
   float: right;
