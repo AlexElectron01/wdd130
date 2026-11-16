@@ -64,6 +64,14 @@ h1 {
   color: #ffffff; /* white text – make sure there is enough contrast with the background-color */
 }
 
+.hero article {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    right: 20px;
+    background-color: var(--accent1-color);
+    padding: 15px;
+}
 
 .hero article img {
   float: right;
