@@ -143,3 +143,27 @@ section h2 {
   grid-column: 1 / -1;
   text-align: center;
 }
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer p {
+  grid-column: 2;
+  text-align: center;
+}
+
+.socialmedia {
+  grid-column: 3;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.socialmedia img {
+  width: 30px;
+  height: 30px;
+}
