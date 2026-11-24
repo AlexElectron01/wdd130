@@ -128,7 +128,7 @@ section h2 {
   gap: 2rem;
 }
 
-figure {
+.adventure {
   margin-top: 20px;
   margin-bottom: 20px;
   display: grid;
@@ -136,4 +136,10 @@ figure {
   align-items: center;
   gap: 2rem;
 
+}
+
+.adventure h2 {
+
+  grid-column: 1 / -1;
+  text-align: center;
 }
