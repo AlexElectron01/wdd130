@@ -137,14 +137,15 @@ section h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 
 }
 
 figure img {
-  width: 150px;
+  width: 100%;
+  max-width: 150px;
   height: 150px;
 }
 
