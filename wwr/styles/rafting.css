@@ -57,6 +57,16 @@ ul {
   display: grid;
   grid-template-columns: 120px 1fr 1fr 1fr;
   align-items: center;
+
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+
+  text-decoration: none;
 }
 
 nav,
